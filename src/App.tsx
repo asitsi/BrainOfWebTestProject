@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css';
 import Column from "./components/Column";
 import Row from "./components/Rows";
@@ -7,7 +6,6 @@ import Cell from "./components/Cells";
 import { numberToChar } from "./components/numberToChar";
 
 function App() {
-  const [count, setCount] = useState(0);
 
   const numberOfColumns = 20;
   const numberOfRows = 10;  
@@ -47,4 +45,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
